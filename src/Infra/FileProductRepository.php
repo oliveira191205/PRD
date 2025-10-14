@@ -31,7 +31,7 @@ class FileProductRepository implements ProductRepository
     public function findAll(): array
     {
         $products = [];
-        $lines = file($this->file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        $lines = file($this->file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES); //remove quebra de linhas e remove linhas sem nada 
 
         foreach ($lines as $line) {
             $products[] = json_decode($line, true);
@@ -43,3 +43,4 @@ class FileProductRepository implements ProductRepository
 
 
 //marcela
+
