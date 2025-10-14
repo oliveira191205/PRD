@@ -1,5 +1,5 @@
 # — PRD: Projeto do zero (Cadastro + Listagem) com SRP
-PRD diz respeito a um sistema que simula o cadastro, o login e alteração de senhas de usuário.  
+PRD diz respeito a um sistema que simula o cadastroe todo o geneciamento de produtos no sistema.  
 Desenvolvido por:
 - *Larissa Vitória Custódio de Carvalho RA: 1995354*
 - *Marcela Buzzo de Oliveira RA: 2014340*
@@ -19,6 +19,7 @@ O sistema simula todo o funcionamento de cadastro e login de usuário, com as ma
 4.Coloque a pasta descompactada dentro de 'C:\xampp\htdocs\';
 5.Para rodar o projeto, abra o navegador e digite 'https://localhost/index'.
 ```
+
 
 
 
