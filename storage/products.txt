@@ -1,0 +1,2 @@
+
+{"id":1,"name":"Geladeira","price":1500}
