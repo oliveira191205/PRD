@@ -23,8 +23,9 @@ class ProductService
      */
     public function create(array $input): bool
     {
-        $errors = $this->validator->validate($input);
-        if (!empty($errors)) {
+        $isValid = $this->validator->validate($input);
+
+        if (!$isValid) {
             return false;
         }
 
@@ -48,3 +49,4 @@ class ProductService
         return $this->repository->findAll();
     }
 }
+
