@@ -26,14 +26,15 @@ O sistema não possui funcionalidades de edição, exclusão, paginação ou ord
 ## Como rodar o projeto
 ```
 1.Certifique-se de ter o XAMPP e o Apache instalados na máquina.
-2-Baixe e extraia a pasta do projeto chamada “products-srp-demo”.
+2-Baixe e extraia a pasta do projeto chamada “PRD”.
 3.Coloque a pasta extraída dentro do diretório “C:\xampp\htdocs\”.
 4.Abra o terminal dentro da pasta do projeto e execute os comandos “composer install” e “composer dump-autoload”.
 5.Verifique se o arquivo “storage/products.txt” existe. Caso não exista, crie-o manualmente como um arquivo de texto vazio.
 6.Inicie o Apache no painel do XAMPP.
-7.No navegador, acesse “http://localhost/products-srp-demo/public/index.php” para cadastrar produtos.
-8.Após o cadastro, acesse “http://localhost/products-srp-demo/public/products.php” para visualizar a listagem completa.
+7.No navegador, acesse “http://localhost/PRD/public/index.php” para cadastrar produtos.
+8.Após o cadastro, acesse “http://localhost/PRD/public/products.php” para visualizar a listagem completa.
 ```
+
 
 
 
