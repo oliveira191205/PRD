@@ -25,7 +25,7 @@ class FileProductRepository implements ProductRepository
             json_encode($product, JSON_UNESCAPED_UNICODE) . PHP_EOL, 
             FILE_APPEND
         );
-        return true; //conferir, coloquei para parar de dar erro de retorno
+        return true; 
     }
 
     public function findAll(): array
@@ -40,5 +40,6 @@ class FileProductRepository implements ProductRepository
         return $products;
     }
 }
+
 
 //marcela
